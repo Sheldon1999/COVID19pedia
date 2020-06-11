@@ -579,7 +579,6 @@ footer {
 
 .social-links {
     list-style: none;
-    float: right;
 }
 
 .footer-nav li,
@@ -616,8 +615,8 @@ footer {
 
 .ion-social-facebook,
 .ion-social-twitter,
-.ion-social-googleplus,
-.ion-social-instagram {
+.ion-social-linkedin,
+.ion-social-github {
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
@@ -630,12 +629,12 @@ footer {
     color: #00aced;
 }
 
-.ion-social-googleplus:hover {
-    color: #dd4b39;
+.ion-social-github:hover {
+    color: rgb(0, 0, 0);
 }
 
-.ion-social-instagram:hover {
-    color: #517fa4;
+.ion-social-linkedin:hover {
+    color: rgb(0, 140, 255);
 }
 
 
