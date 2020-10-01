@@ -33,6 +33,7 @@
         <meta name="msapplication-TileImage" content="/resources/favicons/mstile-144x144.png">
         <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js"></script>
         
     </head>
     <body>
@@ -51,7 +52,8 @@
                 </div>
             </nav>
             <div class="hero-text-box">
-                <h1>COVID-19 pedia<br>An interactive Encyclopedia</h1>
+                <h1>COVID-19 pedia</h1>
+                <h1 id="typed"></h1>
 		<a class="btn btn-full js--scroll-to-start" href="#">Show more</a>
                 <a class="btn btn-ghost js--scroll-to-plans" href="#">Resources</a>
             </div>
@@ -367,6 +369,18 @@ Thackeray said #lockdown has been partially eased because economic activities ne
                 </p>
             </div>
         </footer>
+    <script>
+        var typed = new Typed('#typed',{
+                    strings:["AN INTERACTIVE ENCYCLOPEDIA"],
+                    backSpeed: 35,
+                    smartBackspace: true,
+                    backDelay: 1200,
+                    startDelay: 0,
+                    typeSpeed: 55,
+                    loop: true,
+
+                  });
+    </script>
         
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
